@@ -1,0 +1,75 @@
+
+header {
+    display: flex;
+    padding: 10px;
+    color: white;
+    background-color: #0b4c9c;
+}
+
+.logo {
+    padding-left: -70px;
+    display: flex;
+ 
+ 
+ }
+ .logo1{
+ 
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: -51px;
+ 
+ }
+.btn1 {
+    background-color: #0b4c9c;
+    color : white;
+    text-align: center;
+    margin-left: 80px;
+}
+.btn1:hover{
+    background-color:  #4d8ed9;
+
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -40px;
+ }
+ 
+ header nav ul li {
+    margin-left: 30px;
+ }
+ 
+ body {
+     background-color: #f8f9fa;
+ }
+ .table-container {
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .table th, .table td {
+     vertical-align: middle;
+ }
+ .table th {
+     background-color: #343a40;
+     color: #ffffff;
+ }
+ .table-striped tbody tr:nth-of-type(odd) {
+     background-color: #f2f2f2;
+ }
+ .logo1 {
+     max-width: 100px;
+ }
+ .btn1 {
+     background-color: #343a40;
+     color: #ffffff;
+ }
+
+ .form-control{
+    width: 700px;
+    margin-left: -200px;
+ }

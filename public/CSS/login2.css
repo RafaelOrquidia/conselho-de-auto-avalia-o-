@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #003366;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Login & Registro Containers */
+.login-container, .register-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+/* Formulários */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.btn {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.btn:hover {
+    background-color: #0055cc;
+}
+
+/* Links */
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: red;
+}

@@ -1,0 +1,179 @@
+
+   
+ header {
+    background-color: #003366;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 10px;
+ }
+ .logo {
+    padding-left: 50px;
+    display: flex;
+ 
+ 
+ }
+ .logo1{
+ 
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 15px;
+ 
+ }
+ header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+ }
+ 
+ header .container nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    padding-right: 50px;
+ }
+ 
+ header nav ul {
+    list-style-type: none;
+    display: flex;
+ }
+ 
+ header nav ul li {
+    margin-left: 30px;
+ }
+ 
+ header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+ 
+ }
+ 
+ header nav ul li a:hover {
+    text-decoration: underline;
+ }
+  
+  #sair {
+     background-color: #666;
+     color: #fff;
+     border: none;
+     padding: 0.5em 1em;
+     cursor: pointer;
+  }
+ 
+
+
+/* Estilização do Formulário de Autoavaliação */
+main{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.autoavaliacao-form {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.autoavaliacao-form h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.autoavaliacao-form p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Estilização dos Fieldsets */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button.btn {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+button.btn:hover {
+    background-color: #0055cc;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}

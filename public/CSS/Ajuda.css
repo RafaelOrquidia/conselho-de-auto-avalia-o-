@@ -1,0 +1,161 @@
+body{
+    /* background-image: linear-gradient(45deg,#52555a,#15171a); */
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.navbar-custom {
+    background-color: white; 
+}
+
+.navbar-custom{
+    cursor: pointer;
+
+}
+
+.navbar-custom :hover{
+    color:#4d8ed9;
+    transition: 0.2s;
+
+}
+
+.navbar-brand img {
+
+    height: 60px; 
+    margin-right: 20px; 
+}
+
+.nome{
+    margin-bottom: 0px;
+    margin-left: 76px;
+    margin-top: -60px;
+    color: #0b4c9c;
+
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -40px;
+ }
+ 
+ header nav ul li {
+    margin-left: 30px;
+ }
+main {
+    flex: 1;
+ 
+    /* overflow-y: auto; */
+    padding: 20px;
+    padding-bottom: 200px;
+}
+
+.ajuda-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ajuda-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+/* Estilo FAQ */
+.faq {
+    margin-bottom: 30px;
+}
+
+.faq h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h4 {
+    font-size: 18px;
+    color: #003366;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Contato e Suporte */
+.contato-suporte h3 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.contato-suporte ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contato-suporte ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Links Úteis */
+.links-uteis h3 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.links-uteis ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.links-uteis ul li {
+    margin-bottom: 10px;
+}
+
+.links-uteis ul li a {
+    font-size: 16px;
+    color: #003366;
+    text-decoration: none;
+}
+
+.links-uteis ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé fixo */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    /* position: fixed; */
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}

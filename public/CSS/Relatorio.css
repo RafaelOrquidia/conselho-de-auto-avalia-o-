@@ -1,0 +1,87 @@
+
+/* Estilização da seção de relatórios */
+main{
+    padding-top: 50px;
+    padding-bottom: 100px;
+} 
+
+.relatorios-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.relatorios-section h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.relatorios-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Tabela de Relatórios */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+td a {
+    color: #003366;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
